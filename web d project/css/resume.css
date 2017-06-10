@@ -1,0 +1,79 @@
+html,body{
+	height: 100%;
+	width: 100%;
+}
+body{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-repeat: repeat;
+}
+#bulletin{
+	height: 20px;
+	width: 20px;
+}
+#top{
+	height: 10%;
+	background: #8C2957;
+	font-size: 200%;
+	margin: 0;
+	padding: 0;
+}
+#top ul{
+	margin: 0;
+	list-style-type: none;
+}
+#top ul li{
+	display: inline;
+}
+#top a {
+	color: black;
+	}
+#top a:hover {
+	font-weight: 700;
+	color: white;
+}	
+#top ch{
+	color: red;
+}
+.res{
+	background: white;
+	height: 200px;
+	width: 300px;
+	opacity: 0.5;
+	font-size: 30px;
+	text-align: center;
+}
+#pers{
+	position: absolute;
+	left: 40px;
+	top: 100px;
+}
+#qual{
+	position: absolute;
+	left: 380px;
+	top: 100px;
+}
+#rel{
+	position: absolute;
+	left: 720px;
+	top: 100px;
+}
+#skills{
+	position: absolute;
+	left: 40px;
+	top: 340px;
+}
+#ach{
+	position: absolute;
+	left: 380px;
+	top: 340px;
+}
+#ref{
+	position: absolute;
+	left: 720px;
+	top: 340px;
+}
+.butres{
+	border: 1px solid black;
+}

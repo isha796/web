@@ -1,0 +1,67 @@
+<!DOCTYPE html5>
+<html>
+<head>
+	<title>contact</title>
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
+	<script type="text/javascript">
+			function validateform()
+{
+var y = document.forms["myform"]["number"].value;
+var x = document.forms["myform"]["name"].value;
+if(x == null || x == "")
+{
+alert("name must be filled");
+return false;
+}
+if(y.length() > 10 || y.length() < 10)
+{alert("no. must be of 10 digits");
+return false;}
+	</script>
+</head>
+<body bgcolor="#A5A3A3">
+
+<div id="top">
+		<ul>
+			<li>
+				<img src="bullet_arrow.png" id="bulletin">
+				<a href="portfolio.html" target="_self"> Home 
+				 </a>
+			</li>
+         	<li>		
+         		<img src="bullet_arrow.png" id="bulletin">
+         		<a href="gallery.html" target="_self"> Gallery  
+         		 </a>
+         	</li>
+        	 <li>
+				<img src="bullet_arrow.png" id="bulletin">
+				<a href="resume.html" target="_self"> Resume 
+				</a>
+			</li>
+        	 <li>		
+         		<img src="bullet_arrow.png" id="bulletin">
+         		<a href="contact.html" target="_self"> Contact 
+         		</a>
+        	 </li>
+		</ul>
+	</div>
+	<h2 align="center"><u>Contact Form</u></h2>
+	<p align="center">If you want to hire me can contact me directly or send your requirements and contact details.I can contact you later.</p>
+<div id="color">
+	<div id="form" style="font-size:20px" >
+	<form  name="myform" onsubmit="return validateform()">
+		Your name: <input type="text" name="name" placeholder="Enter your name" size="45" style="border: none" required></br></br></br>
+		Your email: <input type="email" name="email" placeholder="Enter your email" size="45" style="border: none" required></br></br></br>
+		Your phone:<input type="text" name="number" placeholder="Enter your number" maxlength="10" style="border: none" required></br></br></br>
+		Requirements:<textarea rows="6" cols="50" name="comments" style="border: none"></textarea></br></br>
+		<input type="submit" value=" Submit ">
+	</form>
+</div>
+
+</div>
+	<div id="text" style="font-size:20px" >
+		<p>My Contact details:</br>
+		Email id : ishanki.kansal796@gmail.com</br>
+		Contact number: 7206233183</br></p>
+	</div>
+</body>
+</html>

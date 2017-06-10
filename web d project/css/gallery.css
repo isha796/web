@@ -1,0 +1,81 @@
+body, html{
+	height: 100%;
+}
+body{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+#top{
+	height: 10%;
+	width: 100%;
+	background: #535C2D;
+	font-size: 200%;
+	margin: 0;
+	padding: 0;
+}
+#top ul{
+	margin: 0;
+	list-style-type: none;
+}
+#top ul li{
+	display: inline;
+}
+#top a {
+	color: black;
+	}
+#top a:hover {
+	font-weight: 700;
+	color: white;
+}	
+#top ch{
+	color: red;
+}
+#bulletin{
+	height: 20px;
+	width: 20px;
+}
+#main {
+	height: 90%;
+	width: 100%;
+	position: relative;
+}
+.image {
+	position: absolute;
+	top: 10%;
+	width: 60%;
+	left: -70%;
+	height: 80%;
+	background: silver;
+	transition: left 1s ease;
+	overflow: hidden;
+	border: 2px solid silver;
+}
+#left{
+	position: absolute;
+	top: 280px;
+	left: 10px;
+	border-radius: 50%;
+	height: 50px;
+	width: 150px;
+	font-size: 25px;
+	background-color: white;
+	color: black;
+	border: 1px solid grey;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	opacity: 0.5;
+}
+#right{
+	position: absolute;
+	top: 280px;
+	left: 1200px;
+	border-radius: 50%;
+	height: 50px;
+	width: 150px;
+	font-size: 25px;
+	background-color: white;
+	color: black;
+	border: 1px solid grey;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	opacity: 0.5;
+}
